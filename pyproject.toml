@@ -3,10 +3,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mxtoolbox_rpdeo"
+name = "mxtoolbox_client"
 version = "0.1.0a"
 authors = [
-  { name="Rajesh P. Deo", email="rajesh.deo@gmail.com" },
+   { name="Rajesh P. Deo" },
 ]
 description = "A client for MX ToolBox API"
 readme = "README.md"
