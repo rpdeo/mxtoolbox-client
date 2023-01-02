@@ -24,7 +24,7 @@ def cli():
 
     if args.list_commands:
         for k, v in valid_commands.items():
-            print(f"{k:-5s}: {v:s}")
+            print(f"{k:>10s}: {v:s}")
         return
 
     mx_client = None
