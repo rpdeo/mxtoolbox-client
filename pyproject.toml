@@ -17,6 +17,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[project.scripts]
+mxtoolbox = "mxtoolbox:cli"
+
 [project.urls]
 "Homepage" = "https://github.com/rpdeo/mxtoolbox-client"
 "Bug Tracker" = "https://github.com/rpdeo/mxtoolbox-client/issues"

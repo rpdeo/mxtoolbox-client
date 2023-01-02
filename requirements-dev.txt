@@ -5,3 +5,4 @@ flake8
 importmagic
 build
 twine
+hatch

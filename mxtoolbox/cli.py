@@ -4,11 +4,11 @@ import argparse
 from pprint import pprint
 import sys
 
-def main():
+def cli():
     parser = argparse.ArgumentParser(
         prog = 'MX ToolBox Client',
         description = 'Query the MX ToolBox API and display results.',
-        epilog = 'Copyright 2023 Rajesh P. Deo <rajesh.deo@gmail.com>')
+        epilog = 'Copyright (c) 2023, Rajesh P. Deo')
 
     parser.add_argument('domain_name')
     parser.add_argument('-k', '--api_key')
@@ -34,4 +34,4 @@ def main():
             parser.print_usage()
 
 if __name__ == '__main__':
-    sys.exit(main())
+    sys.exit(cli())
